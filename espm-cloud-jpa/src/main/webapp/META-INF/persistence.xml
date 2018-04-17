@@ -2,7 +2,7 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
 <!-- Enables HDB support: provides persistance unit to eclipse link entity manager, remove comment if required
-  <persistence-unit name="simpleweb" transaction-type="JTA">
+  <persistence-unit name="espmcloudjpa" transaction-type="JTA">
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
     <jta-data-source>jdbc/DefaultDB</jta-data-source>
     <properties>

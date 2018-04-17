@@ -1,4 +1,4 @@
-package com.company.cloudespmv2jenkys.simpleweb;
+package com.company.cloudespmv2jenkys.espmcloudjpa;
 
 import static org.junit.Assert.*;
 import static org.hamcrest.Matchers.*;
@@ -8,7 +8,7 @@ import java.io.*;
 import org.junit.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
-import com.company.cloudespmv2jenkys.simpleweb.HelloServlet;
+import com.company.cloudespmv2jenkys.espmcloudjpa.HelloServlet;
 
 /**
  * Unit tests for HelloServlet.

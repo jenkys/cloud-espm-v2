@@ -1,4 +1,4 @@
-package com.company.cloudespmv2jenkys.simpleweb;
+package com.company.cloudespmv2jenkys.espmcloudjpa;
 
 import java.io.IOException;
 import java.io.OutputStreamWriter;

@@ -3,12 +3,12 @@ _schema-version: '2.1'
 version: 0.0.1
 
 modules:
- - name: simpleweb
+ - name: espmcloudjpa
    type: java
-   path: simpleweb
+   path: espm-cloud-jpa
    parameters:
       memory: 512M
    provides:
-    - name: simpleweb_api
+    - name: espmcloudjpa_api
       properties:
          url: ${default-url}
