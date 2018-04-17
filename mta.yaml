@@ -3,13 +3,13 @@ _schema-version: '2.1'
 version: 0.0.1
 
 modules:
- - name: espmcloudjpa
+ - name: espm-cloud-jpa
    type: java
    path: espm-cloud-jpa
    parameters:
       memory: 512M
    provides:
-    - name: espmcloudjpa_api
+    - name: espm-cloud-jpa_api
       properties:
          url: ${default-url}
 
