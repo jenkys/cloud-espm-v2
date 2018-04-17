@@ -12,3 +12,14 @@ modules:
     - name: espmcloudjpa_api
       properties:
          url: ${default-url}
+
+ - name: espm-cloud-web
+   type: java
+   path: espm-cloud-web
+   parameters:
+      memory: 512M
+   provides:
+    - name: espm-cloud-web_api
+      properties:
+         url: ${default-url}
+
