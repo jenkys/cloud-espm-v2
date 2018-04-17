@@ -1,0 +1,14 @@
+ID: cloudespmv2
+_schema-version: '2.1'
+version: 0.0.1
+
+modules:
+ - name: simpleweb
+   type: java
+   path: simpleweb
+   parameters:
+      memory: 512M
+   provides:
+    - name: simpleweb_api
+      properties:
+         url: ${default-url}
