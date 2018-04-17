@@ -1,5 +1,8 @@
+*.log
 /.che/**
 /target/**
 .settings
 .classpath
 .project
+.settings
+/.apt_generated/
